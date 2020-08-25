@@ -7,3 +7,12 @@
     - google fonts for font-family,
     - scrolling animations using animation-on-scroll library
 - website is responsive for any device
+
+- add font awesome  
+    - download it from site
+    - extract it
+    - copy webfont folder and paste in root folder and all.css file
+- download font from google fonts and include file
+
+- for colors use https://coolors.co/
+- for gradients use https://webgradients.com/

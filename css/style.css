@@ -1,8 +1,43 @@
+@import url('./font.css');
+
 html,
 body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+}
+
+/* VARIABLES */
+:root {
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin: 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic: 'Livvic', cursive;
+
+
+    --text-gray: #0f4c5c;
+    --text-light: #adb5bd;
+    --bg-color: #000000;
+    --white: #ffffff;
+    --midnight: #546a7b;
+
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+/* GLOBAL CLASSES */
+a {
+    text-decoration: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* NAVBAR */
@@ -14,8 +49,54 @@ body {
     overflow: hidden;
 }
 
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
 .nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
-    text-decoration: none;
+    display: block;
+    font-family: var(--Lexend);
+}
+
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover {
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a {
+    color: var(--white);
+}
+
+.nav .social {
+    padding: 1.4rem 0;
+}
+
+.nav .social i {
+    padding: 0.2rem;
+}
+
+.nav .social i:hover {
+    color: rgb(187, 226, 213);
+}
+
+/* viewport <= 750px */
+@media only screen and (max-width: 750px){
+   
+    .nav .nav-menu,.nav .nav-items{
+        flex-direction: column;
+    }
 }
