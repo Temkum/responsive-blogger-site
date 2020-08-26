@@ -72,6 +72,14 @@ button:focus {
     outline: none;
 }
 
+span {
+    font-family: var(--Abel);
+}
+
+.container {
+    margin: 0 5vw;
+}
+
 /* NAVBAR */
 .nav {
     background: white;
@@ -153,18 +161,6 @@ button:focus {
     color: rgb(187, 226, 213);
 }
 
-/* viewport <= 750px */
-@media only screen and (max-width: 750px) {
-
-    .nav .nav-menu,
-    .nav .nav-items {
-        flex-direction: column;
-    }
-
-    .nav .toggle-collapse {
-        display: initial;
-    }
-}
 
 /* MAIN SECTION */
 main .main {
@@ -195,4 +191,77 @@ main .main .btn:hover {
     background: transparent;
     border: 1px solid var(--white);
     color: var(--white);
+}
+
+/* BLOG SECTION */
+main .blog {
+    background: url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog .blog-post {
+    padding-top: 6rem;
+}
+
+main .blog .blog-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 1rem;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.2);
+}
+
+
+main .blog-content .blog-title {
+    padding: 2rem 0;
+}
+
+main .blog-content .btn-blog {
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main .blog-content span {
+    display: block;
+}
+
+section .container .owl-nav {
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.owl-theme .owl-nav .owl-prev,
+.owl-theme .owl-nav .owl-next {
+    background: transparent;
+    color: var(--text-light);
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+    color: var(--text-gray);
+}
+
+
+
+/* MEDIA QUERIES */
+/* viewport <= 750px */
+@media only screen and (max-width: 750px) {
+
+    .nav .nav-menu,
+    .nav .nav-items {
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse {
+        display: initial;
+    }
 }

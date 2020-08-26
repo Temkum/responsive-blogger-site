@@ -16,3 +16,8 @@
 
 - for colors use https://coolors.co/
 - for gradients use https://webgradients.com/
+
+- add carousel with btns and image and background image
+    - add cards with carousel functionality
+    - owl carousel for the carousel
+    - call object in js file to set time for carousel to work

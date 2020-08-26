@@ -6,6 +6,8 @@
     <title>Blogger Site</title>
 
     <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -54,15 +56,71 @@
 
     <!-- MAIN SECTION -->
     <main>
-        <section class="main">
-            <div class="site-background">
-                <h3>Tours and Travels</h3>
-                <h1>Amazing Places on earth</h1>
-                <button class="btn">Explore</button>
+      <section class="main">
+        <div class="site-background">
+          <h3>Tours and Travels</h3>
+          <h1>Amazing Places on earth</h1>
+          <button class="btn">Explore</button>
+        </div>
+      </section>
+
+      <!-- CAROUSEL SECTION -->
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-1.jpg" alt="blog post 1" />
+                <div class="blog-title">
+                  <h3>London Fashion week continued the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-2.jpg" alt="blog post 2" />
+                <div class="blog-title">
+                  <h3>London Fashion week continued the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-3.jpg" alt="blog post 3" />
+                <div class="blog-title">
+                  <h3>London Fashion week continued the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+
+              <div class="blog-content">
+                <img src="./assets/Blog-post/post-10.jpg" alt="blog post 4" />
+                <div class="blog-title">
+                  <h3>London Fashion week continued the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
             </div>
-        </section>
+
+            <div class="owl-nav">
+              <span class="owl-prev"
+                ><i class="fas fa-long-arrow-alt-left fa-2x"></i
+              ></span>
+              <span class="owl-next"
+                ><i class="fas fa-long-arrow-alt-right fa-2x"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
     <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
