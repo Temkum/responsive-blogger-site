@@ -21,3 +21,5 @@
     - add cards with carousel functionality
     - owl carousel for the carousel
     - call object in js file to set time for carousel to work
+
+- to add nonbreaking space: &nbsp;

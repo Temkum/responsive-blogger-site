@@ -8,12 +8,12 @@ $(document).ready(() => {
   });
 
   // owl-carousel
-  $('.owl-carousel').owlCarousel({
+  $(".owl-carousel").owlCarousel({
     loop: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
+    autoplay: false,
+    autoplayTimeout: 4000,
     dots: false,
     nav: true,
-    navText:[$('.owl-nav .owl-prev'), $('.owl-nav .owl-next')]
+    navText: [$(".owl-nav .owl-prev"), $(".owl-nav .owl-next")],
   });
 });
