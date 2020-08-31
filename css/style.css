@@ -515,14 +515,29 @@ footer.footer .copyrights {
     font-family: var(--Josefin);
 }
 
-footer.footer .copyrights h4 i{
-color: red
+footer.footer .copyrights h4 i {
+    color: red
 }
-footer.footer .copyrights h4 a:hover{
+
+footer.footer .copyrights h4 a:hover {
     color: var(--text-light);
 }
 
+/* scrollup */
+footer.footer .scroll-up {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
 
+footer.footer .scroll-up span {
+    color: var(--midnight)
+}
+
+footer.footer .scroll-up span:hover {
+    color: var(--white);
+    cursor: pointer;
+}
 
 /* MEDIA QUERIES */
 /* viewport <= 750px */
