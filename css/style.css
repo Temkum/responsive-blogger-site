@@ -445,7 +445,7 @@ main .post-content .post-title a {
 .site-content .sidebar .pop-tags .tags .tag {
     background: var(--sky);
     padding: .4rem 1rem;
-    margin: .4rem;
+    margin: .7rem;
 
     border-radius: 3rem;
     -webkit-border-radius: 3rem;
@@ -453,6 +453,76 @@ main .post-content .post-title a {
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
 }
+
+/* FOOTER */
+footer.footer {
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container>div {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2 {
+    color: var(--white);
+}
+
+footer.footer .newsletter .form-element {
+    background: var(--bg-color);
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input {
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: var(--white);
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span {
+    background: var(--sky);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer.footer .instagram div>img {
+    display: inline-block;
+    height: 50%;
+    width: 25%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i {
+    color: var(--white);
+    padding: .2rem;
+    cursor: pointer;
+}
+
+footer.footer .copyrights {
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+
+footer.footer .copyrights h4 i{
+color: red
+}
+footer.footer .copyrights h4 a:hover{
+    color: var(--text-light);
+}
+
+
 
 /* MEDIA QUERIES */
 /* viewport <= 750px */
