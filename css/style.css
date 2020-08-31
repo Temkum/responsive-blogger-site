@@ -381,9 +381,29 @@ main .post-content .post-title a {
     -o-border-radius: 3rem;
 }
 
-.site-content .sidebar .popular-post .post-content{
+.site-content .sidebar .popular-post .post-content {
     padding: 1rem 0;
 }
+
+.site-content .sidebar .popular-post h2 {
+    padding: 4rem;
+}
+
+.site-content .sidebar .popular-post .post-info {
+    padding: .4rem .1rem;
+    bottom: 0rem;
+    left: 1.5rem !important;
+    background: white !important;
+    border-radius: 0rem !important;
+    -webkit-border-radius: 0rem !important;
+    -moz-border-radius: 0rem !important;
+    -ms-border-radius: 0rem !important;
+    -o-border-radius: 0rem !important;
+}
+.site-content .sidebar .popular-post .post-title a {
+   font-size: 1rem;
+}
+
 
 
 
