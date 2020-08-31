@@ -92,6 +92,10 @@ p {
     color: var(--text-light);
 }
 
+hr {
+    width: 50%;
+}
+
 /* NAVBAR */
 .nav {
     background: white;
@@ -400,11 +404,38 @@ main .post-content .post-title a {
     -ms-border-radius: 0rem !important;
     -o-border-radius: 0rem !important;
 }
+
 .site-content .sidebar .popular-post .post-title a {
-   font-size: 1rem;
+    font-size: 1rem;
 }
 
+/* newletter */
+.site-content .sidebar .newsletter {
+    padding-top: 3rem;
+}
 
+.site-content .sidebar .newsletter .form-element {
+    padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element {
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: var(--Lexend);
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn {
+    padding: .8rem 32%;
+    margin: 1rem 0;
+    background: var(--sky);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
 
 
 /* MEDIA QUERIES */
