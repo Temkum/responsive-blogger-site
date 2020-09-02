@@ -1,3 +1,22 @@
+// make items responsive
+const responsive = {
+  0: {
+    items: 1,
+  },
+  320: {
+    items: 1,
+  },
+  560: {
+    items: 2,
+  },
+  1024: {
+    items: 3,
+  },
+  1440: {
+    items: 4,
+  },
+};
+
 $(document).ready(() => {
   $nav = $(".nav");
   $toggleCollapse = $(".toggle-collapse");
@@ -11,10 +30,11 @@ $(document).ready(() => {
   $(".owl-carousel").owlCarousel({
     loop: true,
     autoplay: false,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 3000,
     dots: false,
     nav: true,
     navText: [$(".owl-nav .owl-prev"), $(".owl-nav .owl-next")],
+    responsive: responsive,
   });
 
   // scroll to top
