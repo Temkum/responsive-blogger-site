@@ -23,3 +23,6 @@
     - call object in js file to set time for carousel to work
 
 - to add nonbreaking space: &nbsp;
+
+- add scroll animation
+    - 
